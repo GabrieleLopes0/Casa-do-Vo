@@ -1,0 +1,203 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #082734;
+
+}
+
+header{
+    background-color: #082734;
+    height: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right ;
+}
+
+div{
+    padding: 0px;
+    margin: 0px
+}
+
+header ul, li{
+    display:inline-block;
+    color: whitesmoke;
+    margin-right: 10px;
+    font-size: 1.5vw;
+    transition: all .5s;
+}
+
+
+header a:hover{
+    font-weight: 900;
+    color: #d7a14d;
+    text-decoration: none;
+
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+h1,p{
+    padding:0px;
+    margin: 0px;
+    color: whitesmoke
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit
+}
+
+
+
+.titulo{
+    height: 35vw;
+    background-image: url("../img/tatto-fundo.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.titulo img{
+    width: 60%
+}
+
+.imagens{
+    background-image: url('../img/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 35vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tatto{
+
+    width: 25vw;
+    height: 30vw;
+    border-radius: 25px;
+    margin: 5vw 0vw 5vw 5vw;
+}
+.tatto img{
+
+    width: 20vw;
+    height: 25vw;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+.tatto img:hover{
+    box-shadow: -5px 5px 10px #d7a14d;
+}
+
+.quemSomos{
+    background-image: url('../img/fundo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 35vw;
+    display: flex;
+    align-items: center;
+}
+
+.quemSomos h1{
+
+    font-size: 9vw;
+    color: #648381;
+    margin-left: 5vw
+    
+}
+
+.quemSomos p {
+    font-size: 1.5vw;
+}
+
+.texto{
+    background-color: #648381;
+    width: 50%;
+    height: 80%;
+    margin-left: 35px;
+    border-radius: 25px
+
+}
+
+.texto p{
+    margin: 2vw
+}
+
+.texto b{
+    color:#f4b251
+}
+.tatuadores{
+    background-image: url('../img/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 35vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+
+}
+
+
+.tatuadores-bloco{
+    background-color: #082734;
+    width: 22vw;
+    height: 28vw;
+    border-radius: 25px;
+    margin: 5vw;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4vh;
+}
+.tatuadores-bloco:hover{
+    box-shadow: 0px 5px 10px #d7a14d;
+}
+.tatuadores img{
+    width: 15vw;
+    height: 15vw;
+    margin-left: 4.5vh;
+}
+.tatuadores p{
+    font-size: 1.5vw;
+} 
+
+
+.maps{
+    background-image: url('../img/fundo4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 40vw;
+    display:block;
+    text-align:center; 
+
+}
+
+.maps h1{
+    color: #d7a14d;
+    padding-top: 30px;
+    font-size: 5vw;
+
+}
+
+iframe{
+    width: 60vw;
+    height: 25vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    transition: all .5s;
+}
+
+iframe:hover{
+    box-shadow: 10px 10px 10px #d7a14d;
+}
+footer p{
+    font-size: 1vw;
+    text-align: center;
+}
